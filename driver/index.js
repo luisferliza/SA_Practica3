@@ -9,7 +9,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 
-console.log('Repartidor')
+console.log("##################################")
+console.log("########### Repartidor ###########")
+console.log("##################################\n")
 
 app.post('/notify_order', (req, res) => {    
     console.log("\n------- Se recibio una peticion -------")

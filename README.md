@@ -1,20 +1,22 @@
-# Laboratorio SA - Práctica 3
+# Laboratorio SA - Práctica 4
 
 ## Luis Fernando Lizama García
 ## 201602656
 
-El video de demostracion de este proyecto puede encontrarse en  [este enlace](https://youtu.be/T9wat_DIv5g "Video")
+El video de demostracion de este proyecto puede encontrarse en  [este enlace](https://youtu.be/FX_BO4QtNoU "Video")
 
-# Cliente
-El cliente fue desarrollado con python utilizando la libreria requests para realizar las peticiones
+# Cliente y EBS
+El cliente y el EBS fueron desarrollados con python utilizando la libreria requests para realizar las peticiones y Flask para levantar el servidor
 
-Para instalar requests utilizamos el comando 
+Para instalar requests y Flask utilizamos el comando 
 ```python
 pip install requests
+pip install Flask
 ```
 Para ejecutar el archivo utilizamos el comando
 ```python
 python main.py
+python app.py
 ```
 # Restaurante y Repartidor
 El api para el restaurante fue desarrollado utilizando NodeJS y express
